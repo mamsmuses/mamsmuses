@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mam’s Muses</title>
+
+<!-- Link to Park Lane font -->
+<link href="https://fonts.cdnfonts.com/css/park-lane" rel="stylesheet">
+
+<style>
+body {
+    margin: 0;
+    background-color: #ffffff; /* White background */
+    color: #4b342f; /* Brown color from logo */
+    font-family: 'Park Lane Light', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 700px;
+}
+
+.logo {
+    max-width: 380px;
+    width: 90%;
+    margin-bottom: 40px;
+}
+
+.text-content {
+    font-size: 1.2em;
+    line-height: 1.8em;
+}
+
+.text-content a {
+    color: #4b342f; /* Same brown for link */
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 50px;
+    font-size: 0.85em;
+    color: #a39894;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <!-- Logo -->
+    <img src="logo.png" alt="Mam's Muses Logo" class="logo">
+
+    <!-- Text content -->
+    <div class="text-content">
+        <p>Welcome — I’m so glad you’re here!</p>
+        <p>We create needle minders and more for your needlepoint moments, and give back to dog charities close to our hearts along the way.</p>
+        <p>Take a peek at our <a href="https://mamsmuses.etsy.com" target="_blank">Etsy shop</a> and find your next little happy.</p>
+        <p>XX mam</p>
+    </div>
+
+    <footer>
+        © 2026 Mam’s Muses
+    </footer>
+</div>
+
+</body>
+</html>
