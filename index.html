@@ -9,11 +9,12 @@
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
 
 <style>
+/* Reset and basic body styling */
 body {
     margin: 0;
     background-color: #ffffff; /* White background */
     color: #4b342f; /* Brown from your logo */
-    font-family: 'Playfair Display', serif; /* Elegant font */
+    font-family: 'Playfair Display', serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,30 +24,47 @@ body {
     box-sizing: border-box;
 }
 
+/* Container to center content */
 .container {
     max-width: 700px;
+    width: 100%;
 }
 
+/* Logo styling */
 .logo {
-    max-width: 500px; /* Larger logo */
-    width: 95%;
+    max-width: 100%;     /* Full width on small screens */
+    width: 400px;        /* Default larger size on desktop */
+    height: auto;        /* Maintain aspect ratio */
     margin-bottom: 40px;
 }
 
+/* Text content */
 .text-content {
     font-size: 1.2em;
     line-height: 1.8em;
 }
 
 .text-content a {
-    color: #4b342f; /* Brown link to match text */
+    color: #4b342f; /* Brown links */
     text-decoration: underline;
 }
 
+/* Footer styling */
 footer {
     margin-top: 50px;
     font-size: 0.85em;
     color: #a39894;
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 500px) {
+    .logo {
+        width: 90%;       /* Shrink logo on small screens */
+        margin-bottom: 30px;
+    }
+    .text-content {
+        font-size: 1.1em; /* Slightly smaller text on mobile */
+    }
 }
 </style>
 </head>
@@ -69,6 +87,10 @@ footer {
         © 2026 Mam’s Muses
     </footer>
 </div>
+
+</body>
+</html>
+
 
 </body>
 </html>
